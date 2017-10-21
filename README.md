@@ -16,13 +16,15 @@ See list of commands for dfu-programmer
 
 ### Steps
 1. Erase existing memory
-`dfu-programmer atmega32u4 erase --force --debug 1000`
 
- 
+> ```dfu-programmer atmega32u4 erase --force --debug 1000```
 
-2. `dfu-programmer atmega32u4 flash keymap.hex --debug 1000`
-Flash with .hex keymap
+2. Flash with .hex keymap
 
-3. `dfu-programmer atmega32u4 reset --debug 1000`
-Reset
+> ```dfu-programmer atmega32u4 flash keymap.hex --debug 1000```
+
+3. Reset
+
+> ```dfu-programmer atmega32u4 reset --debug 1000```
+
 
