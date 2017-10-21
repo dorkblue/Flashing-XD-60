@@ -9,7 +9,7 @@ Everything I know (limited) about flashing the XD 60 (atmega32u4) with dfu-progr
 [Getting Started Build Tools](https://docs.qmk.fm/getting_started_build_tools.html)
 
 
-## Dfu Programmer Cmd Lines
+## DFU-Programmer Cmd Lines
 ### Commands
 ```dfu-programmer --help```
 See list of commands for dfu-programmer
@@ -27,4 +27,7 @@ See list of commands for dfu-programmer
 
 > ```dfu-programmer atmega32u4 reset --debug 1000```
 
+## Links that helped
+[https://github.com/qmk/qmk_firmware/issues/122](https://github.com/qmk/qmk_firmware/issues/122)
 
+[https://imgur.com/a/IcT03#vxvPgdU](https://imgur.com/a/IcT03#vxvPgdU)
