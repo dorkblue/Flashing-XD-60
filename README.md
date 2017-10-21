@@ -15,9 +15,10 @@ Everything I know (limited) about flashing the XD 60 (atmega32u4) with dfu-progr
 See list of commands for dfu-programmer
 
 ### Steps
-1. `dfu-programmer atmega32u4 erase --force --debug 1000`
+1. Erase existing memory
+`dfu-programmer atmega32u4 erase --force --debug 1000`
 
-Erase existing memory 
+ 
 
 2. `dfu-programmer atmega32u4 flash keymap.hex --debug 1000`
 Flash with .hex keymap
